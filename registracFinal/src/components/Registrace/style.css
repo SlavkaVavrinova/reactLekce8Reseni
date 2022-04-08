@@ -1,0 +1,53 @@
+.form {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 2rem 1rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.form__message {
+  color: #5d6fe4;
+  text-align: right;
+  font-size: 75%;
+}
+
+.form__input,
+.form__select {
+  width: 100%;
+  outline: 0;
+  border: 2px solid #c8cdf5;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.form__input:active,
+.form__input:focus,
+.form__select:active,
+.form__select:focus {
+  border: 2px solid #5d6fe4;
+  border-left: 5px solid #5d6fe4;
+}
+
+.form__checkboxArea {
+  width: 100%;
+}
+
+.form__checkbox {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.form__button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  font-size: 125%;
+  background-color: #5d6fe4;
+  color: white;
+}
+
+.form__button[disabled] {
+  background-color: #afacfa;
+  color: lightgray;
+}
